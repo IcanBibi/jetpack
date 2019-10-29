@@ -1,4 +1,4 @@
-package com.zz.jetpack.fragment.main
+package com.zz.jetpack.ui.fragment.main
 
 
 import android.os.Bundle

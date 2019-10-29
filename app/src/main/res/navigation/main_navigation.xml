@@ -6,14 +6,14 @@
     app:startDestination="@id/infoFragment">
     <fragment
         android:id="@+id/infoFragment"
-        android:name="com.zz.jetpack.fragment.main.InfoFragment"
+        android:name="com.zz.jetpack.ui.fragment.main.InfoFragment"
         android:label="InfoFragment" />
     <fragment
         android:id="@+id/marketFragment"
-        android:name="com.zz.jetpack.fragment.main.MarketFragment"
+        android:name="com.zz.jetpack.ui.fragment.main.MarketFragment"
         android:label="MarketFragment" />
     <fragment
         android:id="@+id/meFragment"
-        android:name="com.zz.jetpack.fragment.main.MeFragment"
+        android:name="com.zz.jetpack.ui.fragment.main.MeFragment"
         android:label="MeFragment" />
 </navigation>

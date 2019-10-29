@@ -1,4 +1,4 @@
-package com.zz.jetpack.fragment.login
+package com.zz.jetpack.ui.fragment.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -42,8 +42,7 @@ class WelcomeFragment : Fragment() {
         }
 
         btn_register.setOnClickListener{
-            val action = WelcomeFragmentDirections
-                .actionWelcomeFragmentToRegisterFragment()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToRegisterFragment()
                 .setEMAIL("Zz@Gamil.com")
             findNavController().navigate(action)
         }

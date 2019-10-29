@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.zz.jetpack.fragment.login.WelcomeFragment"
+        android:name="com.zz.jetpack.ui.fragment.login.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome">
         <action
@@ -24,12 +24,12 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.zz.jetpack.fragment.login.LoginFragment"
+        android:name="com.zz.jetpack.ui.fragment.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.zz.jetpack.fragment.login.RegisterFragment"
+        android:name="com.zz.jetpack.ui.fragment.login.RegisterFragment"
         android:label="fragment_register">
         <argument
             android:name="EMAIL"
